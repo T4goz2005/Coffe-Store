@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+section{
+    font-family: 'Poppins';
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+/*Cabeçalho*/
+
+header{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    position: relative;
+    max-width: 123px;
+}
+
+/*Cabeçalho*/
+
+/*Cabeçalho Icones*/
+
+ .itens{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 27px;
+    padding-right: 70px;
+}
+
+.itens li a{
+    color: rgb(15, 14, 14);
+}
+
+.itens li a:hover{
+    color: #017143;
+} 
+
+.itens li{
+    transition: 0.3s;
+}
+
+.itens li:hover{
+    transform: scale(1.1);
+}
+
+/*Cabeçalho Icones*/
+
+/*Info*/
+
+.content{
+    padding: 20px 130px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textbox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.content .textbox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textbox a{
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.content .textbox a:hover{
+    background-color: #12563a;
+    transform: scale(1.1);
+}
+
+/*Info*/
+
+/* Img BOx*/
+
+.imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    margin-top: 50px
+}
+
+.imgbox img{
+    max-width: 340px;
+}
+
+/* Img BOx*/
+
+/*Img Icons*/
+
+.thumb{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+/*Img Icons*/
+
+/*Social Incons*/
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(600px at right 800px);
+}

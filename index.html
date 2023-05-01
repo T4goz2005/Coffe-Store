@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <title>Coffe Store | Starbucks</title>
+  </head>
+  <body>
+    <section>
+      <div class="circle">
+
+      </div>
+      <header>
+        <img src="./src/img/logo.png" class="imgLogo" />
+
+        <ul class="itens">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textbox">
+          <h2>It's not just Coffee <br />It's <span>Starbucks</span></h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            nostrum culpa commodi placeat aliquid ipsam tempora veniam sapiente
+            mollitia, nisi laudantium temporibus perspiciatis magnam perferendis
+            necessitatibus enim, laborum reprehenderit Porro.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="./src/img/img1.png" class="star-img"/>
+        </div>
+      </div>
+      <ul class="thumb">
+        <li><img src="./src/img/thumb1.png" onclick="trocarImg('./src/img/img1.png');changeCicleColor('#017143')"/></li>
+        <li><img src="./src/img/thumb2.png" onclick="trocarImg('./src/img/img2.png');changeCicleColor('#eb7495')"/></li>
+        <li><img src="/src/img/thumb3.png" onclick="trocarImg('./src/img/img3.png');changeCicleColor('#d752b1')"/></li>
+      </ul>
+
+      <ul class="sci">
+        <li><a href="#"><img src="./src/img/facebook.png"/></a></li>
+        <li><a href="#"><img src="./src/img/twitter.png" alt=""/></a></li>
+        <li><a href="#"><img src="./src/img/instagram.png"></a></li>
+      </ul>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
